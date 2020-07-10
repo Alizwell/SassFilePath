@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
         return null;
       }
 
-      let pathStrRes: RegMathRes | null = lineText.match(/('|")(\S+)\1/);
+      let pathStrRes: RegMathRes | null | any = lineText.match(/('|")(\S+)\1/);
 
       if (!pathStrRes) {
         return null;
