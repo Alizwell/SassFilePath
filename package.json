@@ -1,5 +1,5 @@
 {
-	"name": "sass_file_path",
+	"name": "sassfilepath",
 	"displayName": "gotoSass",
 	"publisher": "brave",
 	"description": "jump to the sass file",
